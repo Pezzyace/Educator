@@ -1,0 +1,42 @@
+@import 'styles.css';
+
+
+/************************ COURSES *************************/
+.courses-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.course{
+  background: var(--color-bg1);
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+.course:hover{
+  background: transparent;
+  border-color: var(--color-primary);
+}
+.course-info{
+  padding: 2.5rem;
+}
+.course-info p{
+  margin: 1.2rem 0 2rem;
+  font-size: 0.9rem;
+}
+
+
+@media screen and  (max-width: 1024px) {
+  .courses{
+    margin-top: 0;
+  }
+  .courses-container{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .courses-container{
+    grid-template-columns: 1fr;
+  }
+}

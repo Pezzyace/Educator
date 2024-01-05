@@ -7,5 +7,7 @@ A rebuild of a school multi-page website
 - JAVASCRIPT
 
 ## Frameworks
-- SwiperJs for the swiper in the Testimonial section.
-- Formspree for handling of the form data collection in the contact page.# egator
+  - **SwiperJs** for the swiper in the Testimonial section.
+  - **Formspree** for handling of the form data collection in the contact page.
+
+# EDUCATOR
