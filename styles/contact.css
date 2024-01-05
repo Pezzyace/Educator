@@ -1,4 +1,4 @@
-@import 'styles.css';
+@import './styles.css';
 
 .contact-container{
   background: var(--color-bg1);
